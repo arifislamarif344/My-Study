@@ -1,0 +1,30 @@
+/*
+ * Ubuntu 20.04 Setup (Necessary)
+ */
+
+Update & Upgrade All packages
+	$ sudo apt update
+	$ sudo apt upgrade 
+
+Install Favorite Apps :-
+	$ sudo apt install obs-studio vlc gimp gparted synaptic
+
+Install Ubuntu Restricted Extras (Media Codecs)
+	$ sudo apt install ubuntu-restricted-extras  
+
+Install Preload
+	$ sudo apt install preload
+
+Improve Laptop Battery
+	$ sudo apt install tlp tlp-rdw 
+
+Install phpMyAdmin, Nginx and MariaDB on Ubuntu
+	https://websiteforstudents.com/install-phpmyadmin-nginx-and-mariadb-on-ubuntu-18-04-lts-beta-server/?fbclid=IwAR0znJfjwEa0BbowgmHj8WlRJRvVg6_DONfigfTZEacP2NC6Ic7Sk0-AugE
+
+Change php.ini
+	memory_limit = 1024M
+	max_execution_time = 900
+	max_input_time = 900
+	post_max_size = 1024M
+	upload_max_filesize = 1024M
+
